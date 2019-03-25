@@ -10,7 +10,7 @@ void print(auto A)
    cout<<endl;
 }
 
-void mystery1(auto Data)
+void mystery1(auto& Data)
 {
   cout<<endl<<"Mystery 1"<<endl<<"---------------------"<<endl;
 
@@ -25,7 +25,7 @@ void mystery1(auto Data)
 
 }
 
-void mystery2(auto Data)
+void mystery2(auto& Data)
 {
 	cout << endl << "Mystery 2"<<endl<<"-------------------"<<endl;
 	
@@ -40,7 +40,7 @@ void mystery2(auto Data)
 }
 
 
-void mystery3(auto Data)
+void mystery3(auto& Data)
 {
 	cout << endl << "Mystery 3"<<endl<<"-------------------"<<endl;
 	
